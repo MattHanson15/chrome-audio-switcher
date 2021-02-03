@@ -1,9 +1,12 @@
+/* From W3Schools Button Group Tutorial */
+
 .btn-group button {
   background-color: #4CAF50; /* Green background */
   border: 1px solid green; /* Green border */
   color: white; /* White text */
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */ 
+  display: block; /* Make the buttons appear below each other */
 }
 
 /* Clear floats (clearfix hack) */
@@ -19,10 +22,10 @@
 }
 
 #muted {
-  background-color: red;
-  border: 1px solid #ed1c24;
+  background-color: #f44336;
+  border: 1px solid red;
 }
 
 :hover#muted {
-  background-color: #ed1c24;
+  background-color: #da190b;
 }
