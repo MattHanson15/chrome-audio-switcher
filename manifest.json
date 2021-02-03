@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chrome Audio Switcher",
+  "description": "Quickly switch which tab can play audio",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_popup": "popup.html"
+  }
+}
